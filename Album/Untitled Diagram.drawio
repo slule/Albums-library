@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" modified="2024-03-09T23:42:15.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="p50tfXBBll3UBjDgwgvL" version="24.0.2" type="github">
+  <diagram name="Page-1" id="1Wpek2Sx3m952qob-5QP">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="AlbumsLibrary" Album="" id="GztJylmP_ms_kumprR0G-9">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="160" y="170" width="200" height="200" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="GztJylmP_ms_kumprR0G-10" value="AlbumId" style="rounded=0;whiteSpace=wrap;html=1;" parent="GztJylmP_ms_kumprR0G-9" vertex="1">
+          <mxGeometry x="10" y="30" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GztJylmP_ms_kumprR0G-11" value="AlbumName" style="rounded=0;whiteSpace=wrap;html=1;" parent="GztJylmP_ms_kumprR0G-9" vertex="1">
+          <mxGeometry x="10" y="80" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GztJylmP_ms_kumprR0G-13" value="YearReleased" style="rounded=0;whiteSpace=wrap;html=1;" parent="GztJylmP_ms_kumprR0G-9" vertex="1">
+          <mxGeometry x="10" y="140" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GztJylmP_ms_kumprR0G-14" value="Songs" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="170" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GztJylmP_ms_kumprR0G-15" value="SongName" style="rounded=0;whiteSpace=wrap;html=1;" parent="GztJylmP_ms_kumprR0G-14" vertex="1">
+          <mxGeometry x="10" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GztJylmP_ms_kumprR0G-16" value="ArtistName" style="rounded=0;whiteSpace=wrap;html=1;" parent="GztJylmP_ms_kumprR0G-14" vertex="1">
+          <mxGeometry x="10" y="90" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GztJylmP_ms_kumprR0G-17" value="AlbumId" style="rounded=0;whiteSpace=wrap;html=1;" parent="GztJylmP_ms_kumprR0G-14" vertex="1">
+          <mxGeometry x="10" y="140" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GztJylmP_ms_kumprR0G-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="GztJylmP_ms_kumprR0G-17" target="GztJylmP_ms_kumprR0G-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
